@@ -219,7 +219,7 @@
                 color: var(--cinza-hover);
             }
 
-            footer .endereço{
+            footer .endereco{
                 color: white;
                 font-weight: 600;
                 font-size: 18px;
@@ -288,6 +288,11 @@
     .checkbox-itens label{
         font-size: 17px;
     }
-
-
+    footer .linha1{
+        flex-direction: column;
+    }
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+    }
 }
